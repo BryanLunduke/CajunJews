@@ -9,7 +9,7 @@ The live site is served by **GitHub Pages from the `main` branch root** (`https:
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Homepage (hero, calendar, resource cards) |
-| `history.html` | Cajun Jewish history and source list |
+| `history.html` | Timeline of Jewish history in Acadiana and further reading |
 | `404.html` | Simple not-found page |
 | `styles.css` | Site styles |
 | `js/config.js` | Google Calendar ID (edit this) |
@@ -22,7 +22,7 @@ The live site is served by **GitHub Pages from the `main` branch root** (`https:
 ## How to edit content
 
 - **Congregations, cemeteries, contact details:** edit the lists in `index.html`.
-- **History essay and citations:** edit `history.html`.
+- **History timeline and citations:** edit `history.html`.
 - **Colors, fonts, layout:** `styles.css` (`--navy`, `--gold`, `--cream` at the top).
 - **Site title / header:** the brand block in each HTML file.
 
@@ -66,4 +66,4 @@ Then open `http://localhost:8080`.
 
 - Navy `#0B1F3A`, gold/mustard accents, cream page background, white cards.
 - Serif (`Playfair Display`) for the site title and card headings; sans (`Source Sans 3`) for body and the hero line.
-- History text follows the [ISJL Encyclopedia of Southern Jewish Communities](https://www.isjl.org/louisiana-lafayette-encyclopedia.html) and [Temple Shalom](https://www.templeshalomlala.org/history), and notes where those sources disagree (notably the 1869 vs. 1881 dating of Rodeph Sholom).
+- The history page is a dated timeline following the [ISJL Encyclopedia of Southern Jewish Communities](https://www.isjl.org/louisiana-lafayette-encyclopedia.html) and [Temple Shalom](https://www.templeshalomlala.org/history), and notes where those sources disagree (notably the 1869 vs. 1881 dating of Rodeph Sholom).

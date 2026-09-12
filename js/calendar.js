@@ -33,8 +33,8 @@
       th.scope = "col";
       th.setAttribute("aria-label", WEEKDAYS[i]);
       th.innerHTML =
-        '<span class="cal-day-full">' + WEEKDAYS[i] + "</span>" +
-        '<span class="cal-day-short">' + name + "</span>";
+        '<span class="cal-day-full">' + name + "</span>" +
+        '<span class="cal-day-short">' + name.charAt(0) + "</span>";
       headRow.appendChild(th);
     });
     thead.appendChild(headRow);

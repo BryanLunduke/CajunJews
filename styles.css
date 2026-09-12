@@ -4,8 +4,8 @@
   --navy-soft: #16345c;
   --gold: #c4a04a;
   --gold-deep: #a8862e;
-  --cream: #f6f1e8;
-  --cream-dark: #efe7d8;
+  --cream: #f3ead9;
+  --cream-dark: #e8dcc6;
   --paper: #ffffff;
   --ink: #1a2433;
   --muted: #5b6573;
@@ -99,9 +99,9 @@ button:focus-visible {
 }
 
 .header-inner {
-  max-width: 1120px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 0.85rem 1.4rem;
+  padding: 0.95rem 1.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,8 +117,8 @@ button:focus-visible {
 }
 
 .brand img {
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
   display: block;
 }
@@ -126,8 +126,8 @@ button:focus-visible {
 .brand-name {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 1.55rem;
-  letter-spacing: -0.01em;
+  font-size: 1.8rem;
+  letter-spacing: -0.015em;
   line-height: 1;
 }
 
@@ -175,10 +175,13 @@ button:focus-visible {
   margin: 0;
   font-family: var(--sans);
   font-weight: 500;
-  font-size: clamp(1.85rem, 4.4vw, 3.15rem);
+  font-size: clamp(1.7rem, 4vw, 2.85rem);
   letter-spacing: -0.02em;
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
-  max-width: 18ch;
+}
+
+.hero-home h1 {
+  white-space: nowrap;
 }
 
 .hero-kicker {
@@ -191,9 +194,9 @@ button:focus-visible {
 
 /* Layout */
 .wrap {
-  max-width: 1120px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 2.4rem 1.4rem 3.5rem;
+  padding: 2rem 1.5rem 3.25rem;
 }
 
 .home-grid {
@@ -211,12 +214,12 @@ button:focus-visible {
 }
 
 .card-pad {
-  padding: 1.35rem 1.45rem 1.5rem;
+  padding: 1.2rem 1.35rem 1.3rem;
 }
 
 .resource-card {
-  padding: 1.15rem 1.3rem 1.2rem 1.25rem;
-  border-left: 4px solid var(--gold);
+  padding: 0.95rem 1.15rem 1rem 1.15rem;
+  border-left: 5px solid var(--gold);
 }
 
 .resource-stack {
@@ -225,16 +228,16 @@ button:focus-visible {
 }
 
 .card h2 {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   font-family: var(--serif);
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--navy);
 }
 
 .resource-card h2 {
-  margin-bottom: 0.65rem;
-  font-size: 1.28rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.22rem;
 }
 
 .resource-list {
@@ -244,8 +247,8 @@ button:focus-visible {
 }
 
 .resource-list > li + li {
-  margin-top: 0.85rem;
-  padding-top: 0.85rem;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
   border-top: 1px solid var(--line);
 }
 
@@ -268,14 +271,16 @@ button:focus-visible {
 .detail {
   display: block;
   color: var(--muted);
-  font-size: 0.95rem;
-  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-top: 0.1rem;
 }
 
 .note {
-  margin: 0.85rem 0 0;
+  margin: 0.65rem 0 0;
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 .card-link {
@@ -325,10 +330,10 @@ button:focus-visible {
 }
 
 .cal-grid td {
-  height: 3.15rem;
+  height: 2.85rem;
   vertical-align: top;
   text-align: center;
-  padding: 0.15rem 0.1rem 0.35rem;
+  padding: 0.1rem 0.08rem 0.28rem;
   border-top: 1px solid #eef0f3;
 }
 
@@ -508,6 +513,10 @@ ol.sources,
   .hero {
     min-height: 240px;
     padding: 2.6rem 1rem;
+  }
+
+  .hero-home h1 {
+    white-space: normal;
   }
 }
 

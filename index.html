@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CajunJews.com — Jewish Resources of Acadiana</title>
+  <meta name="description" content="Jewish congregations, cemeteries, history, and community calendar for Lafayette and Acadiana, Louisiana.">
+  <link rel="canonical" href="https://cajunjews.com/">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="42" height="42" alt="">
+        <span class="brand-name">CajunJews.com</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#calendar">Calendar</a>
+        <a href="#congregations">Congregations</a>
+        <a href="#cemeteries">Cemeteries</a>
+        <a href="history.html">History</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-home" aria-label="Jewish Resources of Acadiana">
+    <h1>Jewish Resources of Acadiana</h1>
+  </section>
+
+  <main id="main" class="wrap">
+    <div class="home-grid">
+      <article class="card card-pad" id="calendar">
+        <div class="cal-toolbar">
+          <h2 id="calendar-heading">Community Calendar</h2>
+        </div>
+        <p class="cal-month" id="calendar-month-label"></p>
+        <div id="calendar-grid"></div>
+        <p class="cal-legend">Gold dots mark Saturdays (Shabbat). Today is highlighted in navy.</p>
+
+        <p class="placeholder-note" id="calendar-placeholder-note">
+          A public Google Calendar embed will appear here once a calendar ID is added in
+          <code>js/config.js</code>. See the README for step-by-step instructions.
+        </p>
+
+        <div class="cal-embed" id="calendar-embed" hidden>
+          <h3>Upcoming events</h3>
+          <iframe
+            id="calendar-iframe"
+            title="Community Google Calendar"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </article>
+
+      <div class="resource-stack">
+        <section class="card resource-card" id="congregations" aria-labelledby="congregations-heading">
+          <h2 id="congregations-heading">Jewish Congregations</h2>
+          <ul class="resource-list">
+            <li>
+              <a href="https://www.templeshalomlala.org/">Temple Shalom</a>
+              <span class="detail">Lafayette — 603 Lee Avenue, Lafayette, LA 70501</span>
+              <span class="detail">Mailing: P.O. Box 53711, Lafayette, LA 70505</span>
+              <span class="detail"><a href="tel:+13372343760">337-234-3760</a></span>
+            </li>
+            <li>
+              <span class="place">Congregation Gates of Prayer</span>
+              <span class="detail">New Iberia — 109 Weeks Street, New Iberia, LA 70560</span>
+            </li>
+          </ul>
+          <p class="note">Historic Temple Emanuel in Opelousas served St. Landry Parish for decades; the synagogue building was sold in 2021. See the <a href="history.html#opelousas">history page</a>.</p>
+        </section>
+
+        <section class="card resource-card" id="cemeteries" aria-labelledby="cemeteries-heading">
+          <h2 id="cemeteries-heading">Jewish Cemeteries</h2>
+          <ul class="resource-list">
+            <li>
+              <span class="place">Menachim Aveilim</span>
+              <span class="detail">Informally called “Hebrew Rest” — Lafayette, Lee &amp; College Avenues</span>
+              <span class="detail">Land donated in 1869 by Gov. Alexandre Mouton; cemetery association chartered 1890</span>
+            </li>
+            <li>
+              <span class="place">Gates of Prayer Cemetery</span>
+              <span class="detail">New Iberia, West Main Street — cemetery land purchased in 1913</span>
+            </li>
+            <li>
+              <span class="place">Hebrew Rest Cemetery</span>
+              <span class="detail">Washington, Louisiana (St. Landry Parish) — a distinct cemetery from Lafayette’s informal “Hebrew Rest” name</span>
+            </li>
+            <li>
+              <span class="place">Temple Emanuel / Gemiluth Chassodim Cemetery</span>
+              <span class="detail">Opelousas, Bellevue Street</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="card resource-card" id="history-card" aria-labelledby="history-heading">
+          <h2 id="history-heading">Cajun Jewish History</h2>
+          <ul class="resource-list">
+            <li>
+              <span class="place">Acadiana</span>
+              <span class="detail">Mid-19th-century settlement in Vermilionville, merchants, and French-speaking cultural affinity</span>
+            </li>
+            <li>
+              <span class="place">Lafayette</span>
+              <span class="detail">Cemetery, Rodeph Sholom, the 1889 Lee Avenue synagogue, and the 1992 founding of Temple Shalom</span>
+            </li>
+          </ul>
+          <a class="card-link" href="history.html">Read the history of Jewish Acadiana →</a>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Jewish resources for Lafayette and Acadiana, Louisiana.</p>
+    <p><a href="history.html#sources">Sources and further reading</a></p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/calendar.js"></script>
+</body>
+</html>

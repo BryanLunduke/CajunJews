@@ -152,7 +152,7 @@ button:focus-visible {
 /* Hero */
 .hero {
   position: relative;
-  min-height: clamp(260px, 42vw, 420px);
+  min-height: clamp(88px, 14vw, 140px);
   display: grid;
   place-items: center;
   background:
@@ -160,7 +160,7 @@ button:focus-visible {
     var(--navy) center / cover no-repeat;
   color: #fff;
   text-align: center;
-  padding: 3.5rem 1.25rem;
+  padding: 1.05rem 1.25rem;
 }
 
 .hero-home {
@@ -175,7 +175,8 @@ button:focus-visible {
   margin: 0;
   font-family: var(--sans);
   font-weight: 500;
-  font-size: clamp(1.7rem, 4vw, 2.85rem);
+  font-size: clamp(1.45rem, 3.4vw, 2.15rem);
+  line-height: 1.2;
   letter-spacing: -0.02em;
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
 }
@@ -185,8 +186,8 @@ button:focus-visible {
 }
 
 .hero-kicker {
-  margin: 0 0 0.55rem;
-  font-size: 0.82rem;
+  margin: 0 0 0.25rem;
+  font-size: 0.72rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #f3e6c4;
@@ -511,8 +512,8 @@ ol.sources,
   }
 
   .hero {
-    min-height: 240px;
-    padding: 2.6rem 1rem;
+    min-height: 80px;
+    padding: 0.9rem 1rem;
   }
 
   .hero-home h1 {

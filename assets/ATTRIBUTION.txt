@@ -1,0 +1,10 @@
+Hero image
+-----------
+The homepage hero (assets/hero.jpg) is a decorative illustration created for
+this site. It is not a photograph of Temple Shalom or any other named
+congregation. Do not treat it as a documentary image or invent photo credits.
+
+Logo
+----
+assets/logo.png is a digital emblem (navy fleur-de-lis with a gold Star of
+David) created for CajunJews.com.

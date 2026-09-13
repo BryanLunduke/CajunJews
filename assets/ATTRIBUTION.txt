@@ -8,3 +8,26 @@ Logo
 ----
 assets/logo.png is a digital emblem (navy fleur-de-lis with a gold Star of
 David) created for CajunJews.com.
+
+Photo gallery (assets/photos/)
+------------------------------
+Only photographs the site has rights to publish.
+
+heymann-store-1916.jpg
+  1916 — Maurice Heymann’s first store in Lafayette.
+  Historical photograph (public domain under site policy: photographs from
+  1930 and earlier). Source file:
+  http://heymannrealestate.com/realestate/wp-content/uploads/2014/05/HeymannStore1916.jpg
+
+temple-emanuel-opelousas-c1930.jpg
+  c. 1930 — Temple Emanuel, South Main Street, Opelousas.
+  Carola Lillie Hartley collection (via St. Landry Now); photograph c. 1930
+  (public domain under site policy).
+
+hebrew-rest-lafayette-2012.jpg
+  2012 — Menachim Aveilim Jewish Cemetery (informally “Hebrew Rest”), Lafayette.
+  Photo by Natalie Maynor, CC BY 2.0
+  https://creativecommons.org/licenses/by/2.0/
+  Source: Wikimedia Commons
+  https://commons.wikimedia.org/wiki/File:Hebrew_Rest_Cemetery_Lafayette,_Louisiana_January_2012.jpg
+  Resized to 1600px wide for the web.

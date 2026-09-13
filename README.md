@@ -10,6 +10,7 @@ The live site is served by **GitHub Pages from the `main` branch root** (`https:
 | --- | --- |
 | `index.html` | Homepage (hero, calendar, resource cards) |
 | `history.html` | Timeline of Jewish history in Acadiana and further reading |
+| `photos.html` | Photographs of Jewish life in Acadiana (rights-cleared only) |
 | `404.html` | Simple not-found page |
 | `styles.css` | Site styles |
 | `js/config.js` | Google Calendar ID (edit this) |
@@ -23,6 +24,7 @@ The live site is served by **GitHub Pages from the `main` branch root** (`https:
 
 - **Congregations, cemeteries, contact details:** edit the lists in `index.html`.
 - **History timeline and citations:** edit `history.html`.
+- **Photo gallery:** add images to `assets/photos/` and entries on `photos.html` only when the site has rights to publish them. Record credits in the caption and in `assets/ATTRIBUTION.txt`.
 - **Colors, fonts, layout:** `styles.css` (`--navy`, `--gold`, `--cream` at the top).
 - **Site title / header:** the brand block in each HTML file.
 

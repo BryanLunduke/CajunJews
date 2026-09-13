@@ -508,6 +508,36 @@ ol.sources,
   margin: 1.1rem 0;
 }
 
+.photo-gallery {
+  display: grid;
+  gap: 2.1rem;
+  margin-top: 1.6rem;
+}
+
+.photo-entry {
+  margin: 0;
+}
+
+.photo-entry img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background: var(--cream-dark);
+}
+
+.photo-caption {
+  margin: 0.7rem 0 0.25rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.photo-credit {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 /* Footer */
 .site-footer {
   background: var(--navy);
